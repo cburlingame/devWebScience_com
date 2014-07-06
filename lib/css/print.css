@@ -1,0 +1,114 @@
+html { 
+  background: #fff; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+font	{
+	 face: arial,sans-serif;
+	 size: 12pt; 
+}
+
+/* ids */
+#hide {display:none;}
+
+#nav {
+	width:100px;
+	top:120px;
+	left:13px;
+	position:absolute;
+	zIndex:1001;
+	padding:25px 20px 50px 5px;
+	border: 5px solid #1F497D; // rgba(65, 166, 161, 165)
+	display:block;
+	background:#ddd;
+	font-face: sans-serif;
+	box-shadow: 5px 5px 2px #000; /* #1F497D */
+	-moz-border-radius-bottomright: 25px 25px;
+	border-bottom-right-radius: 25px 25px;
+	-moz-border-radius-topright: 25px 25px;
+	border-top-right-radius: 25px 25px;
+	// opacity:0;
+	// visibility:hidden;
+	// -webkit-transition: visibility 0.2s linear, opacity 0.2s linear;
+	// -moz-transition: visibility: 0.2s linear, opacity 02.s linear;
+	// -o-transition: visibility 0.2s linear, opacity 0.2s linear;
+	}
+
+/* opacity:0.4; */
+/* filter:alpha(opacity=40); // for IE8 and below compatibilty */
+
+/* classes */
+.stage {
+	font-size:10pt;
+	width:800px;
+	top:120px;
+	left:195px;
+	position:absolute;
+	zIndex:1001;
+	padding:25px 20px 50px 5px;
+	border: 1px solid #1F497D;
+	display:block;
+	background:#1F497D;
+	box-shadow: 5px 5px 2px #000; /* #1F497D */
+	-moz-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+	}
+
+.stageContent	{
+	margin:20px 25px 25px 50px;
+}
+
+.primaryFieldset {
+    font-family: sans-serif;
+    border: 5px solid #1F497D;
+    background: #ddd;
+    box-shadow: 5px 5px 2px #000; /* #1F497D */
+}
+
+.primaryLegend {
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 32px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 0 3px #ddd; */
+    margin-left: 20px;
+}
+
+.formsFieldset {
+	font-family: sans-serif;
+    	border: 2px solid #1F497D;
+    	background: #ddd;
+	-moz-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+.formsLegend {
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+
+.navLink {
+	font-face:arial,sans-serif;
+	font-size: 18pt;
+	font-weight:heavy;
+	color: #1F497D;
+	/*border:1px solid green;*/
+	padding:15px 0px 0px 0px;
+}
+
+/*.navLink a:hover {
+	color:#000;	
+}
+
+.navLink a:link {
+	color:#fff;
+}*/

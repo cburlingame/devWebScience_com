@@ -1,0 +1,114 @@
+html { 
+  /* background: url(/lib/images/MtEvansVista.jpg) no-repeat center center fixed; */
+  background:#ddd;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+font	{
+	 face: arial,sans-serif;
+	 size: 12pt; 
+}
+
+/* ids */
+#hide {display:none;}
+
+#nav {
+	/*height:400px;*/
+	width:100px;
+	top:120px;
+	left:13px;
+	position:absolute;
+	zIndex:1001;
+	padding:25px 20px 50px 5px;
+	border: 5px solid #44941C;
+	display:block;
+	background:#ddd;
+	font-face: sans-serif;
+	box-shadow: 5px 5px 2px #000; /* #44941C */
+	-moz-border-radius-bottomright: 25px 25px;
+	border-bottom-right-radius: 25px 25px;
+	-moz-border-radius-topright: 25px 25px;
+	border-top-right-radius: 25px 25px;
+	// opacity:0;
+	// visibility:hidden;
+	// -webkit-transition: visibility 0.2s linear, opacity 0.2s linear;
+	// -moz-transition: visibility: 0.2s linear, opacity 02.s linear;
+	// -o-transition: visibility 0.2s linear, opacity 0.2s linear;
+	}
+
+/* opacity:0.4; */
+/* filter:alpha(opacity=40); // for IE8 and below compatibilty */
+
+/* classes */
+.stage {
+	font-size:10pt;
+	width:800px;
+	top:120px;
+	left:195px;
+	position:absolute;
+	zIndex:1001;
+	padding:25px 20px 50px 5px;
+	border: 2px solid #44941C;
+	display:block;
+	background:#ddd;
+	box-shadow: 5px 5px 2px #000; /* #44941C */
+	-moz-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+	}
+
+.stageContent	{
+	margin:20px 25px 25px 50px;
+}
+
+.primaryFieldset {
+    font-family: sans-serif;
+    border: 5px solid #44941C;
+    background: #D0DBCA;
+    box-shadow: 5px 5px 2px #000; /* #44941C */
+}
+
+.primaryLegend {
+    background: #44941C;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 32px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 0 3px #ddd; */
+    margin-left: 20px;
+}
+
+.formsFieldset {
+	font-family: sans-serif;
+    	border: 2px solid #44941C;
+    	background: #ddd;
+	-moz-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+}
+
+.formsLegend {
+    background: #44941C;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+
+.navLink {
+	font-face:arial,sans-serif;
+	font-size: 18pt;
+	font-weight:heavy;
+	color: #44941C;
+}
+
+/*.navLink a:hover {
+	color:#000;	
+}
+
+.navLink a:link {
+	color:#fff;
+}*/
